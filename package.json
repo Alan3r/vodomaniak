@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alan3r.github.io/vodomaniak",
+  "homepage": "https://vodomaniak.pl",
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build && copy dist\\index.html dist\\404.html && ... ",
+    "build": "vite build && copy dist\\index.html dist\\404.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite preview"
